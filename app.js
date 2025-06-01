@@ -17,7 +17,7 @@
     },
     
     "ALIVE_MSG": {
-      "description": "Put your alive msg here.",
+      "description": "Put your alive msg here at this.",
       "required": true
     }   
 },
