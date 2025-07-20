@@ -1,8 +1,8 @@
 //======================== restart command =============================
 // QUEEN ELISA MULTIDEVICE WHATSAPP BOT 2025-2099
  // CREATED BY AYAN MODZ
- // FOLLOW MY CHANNEL   https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P
- //    ⏤͟͟͞͞ ✰© QUEEN ELISA OWNER⏤͟͟͞͞ ✰
+ // FOLLOW MY CHANNEL   https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T
+ //    ⏤͟͟͞͞ ✰© *J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ A̸͟͞l̸͟͞i̸͟͞v̸͟͞e̸͟͞* OWNER⏤͟͟͞͞ ✰
 
 
 
@@ -199,7 +199,7 @@ async (conn, mek, m, { from, quoted, isGroup, isAdmins, isCreator, fromMe, reply
 cmd({
   pattern: "hidetag",
   alias: ["tag", "h"],  
-  react: "👸",
+  react: "🥋✅",
   desc: "To Tag all Members for Any Message/Media",
   category: "group",
   use: '.hidetag Hello',
@@ -319,7 +319,7 @@ async (conn, mek, m, {
 
 cmd({
     pattern: "tagall",
-    react: "👸",
+    react: "🥋🫡",
     alias: ["gc_tagall"],
     desc: "To Tag all Members",
     category: "group",
@@ -359,7 +359,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             teks += `${randomEmoji} @${mem.id.split('@')[0]}\n`;
         }
 
-        teks += "*└──✪ QUEEN ELISA INC ✪──*";
+        teks += "*└──✪ 🥋QUEEN HALSTED INC🇿🇼 ✪──*";
 
         conn.sendMessage(from, { text: teks, mentions: participants.map(a => a.id) }, { quoted: mek });
 
