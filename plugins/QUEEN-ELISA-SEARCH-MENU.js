@@ -48,7 +48,7 @@ cmd({
     const results = data.data.slice(0, 7).sort(() => Math.random() - 0.5);
 
     for (const video of results) {
-      const message = `🌸 * Elisa TikTok Video Result*:\n\n`
+      const message = `🌸 * ☘🆃︎🅴︎🅻︎🅺︎🅸︎🅽︎🅶︎☘ TikTok Video Result*:\n\n`
         + `*• Title*: ${video.title}\n`
         + `*• Author*: ${video.author || 'Unknown'}\n`
         + `*• Duration*: ${video.duration || "Unknown"}\n`
@@ -104,7 +104,7 @@ cmd({
 
     // Create the response message
     const message = `
-*QUEEN ELISA NPM SEARCH*
+*☘🆃︎🅴︎🅻︎🅺︎🅸︎🅽︎🅶︎☘ NPM SEARCH*
 
 *🔰 NPM PACKAGE:* ${packageName}
 *📄 DESCRIPTION:* ${description}
