@@ -3,7 +3,7 @@ const settings = require('../settings');
 
 cmd({
     pattern: "owner",
-    react: "✅", 
+    react: "🥋🇿🇼", 
     desc: "Get owner number",
     category: "owner",
     filename: __filename
@@ -29,8 +29,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/0xh1qr.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *Q U E E N - E L I S A* 〕━━┈⊷
+            image: { url: 'https://i.postimg.cc/4NdSqms8/MidKing.jpg' }, // Image URL from your request
+            caption: `╭━━〔 **J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ A̸͟͞l̸͟͞i̸͟͞v̸͟͞e̸͟͞** 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃•😍*Name* - ${ownerName}
@@ -38,14 +38,14 @@ async (conn, mek, m, { from }) => {
 ┃◈┃•📊*Version*: 5.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> ©made by Quee Elisa whatsapp bot 2025`, // Display the owner's details
+> ©made by *J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ A̸͟͞l̸͟͞i̸͟͞v̸͟͞e̸͟͞* whatsapp bot 2025`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363401819417685@newsletter',
-                    newsletterName: 'Q U E E N - E L I S A',
+                    newsletterJid: '120363347365643318@newsletter',
+                    newsletterName: '*J̸͟͞o̸͟͞s̸͟͞h̸͟͞u̸͟͞a̸͟͞m̸͟͞a̸͟͞m̸͟͞b̸͟͞o̸͟͞1 T̸͟͞e̸͟͞c̸͟͞h̸͟͞ A̸͟͞l̸͟͞i̸͟͞v̸͟͞e̸͟͞*',
                     serverMessageId: 143
                 }            
             }
@@ -53,7 +53,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/ftbee0.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/vpnq7.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
