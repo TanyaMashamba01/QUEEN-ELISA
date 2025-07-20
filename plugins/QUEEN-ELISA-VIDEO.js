@@ -36,7 +36,7 @@ cmd(
       // 2) Send metadata + thumbnail
       const info = (await yts(url)).videos[0];
       const desc = `
-*𖹭.╭╭ִ╼࣪━ִﮩ٨ـﮩ♡̫ELISA𖦹ׅ♡ִ̫ﮩ٨ـﮩ━ִ╾࣪╮╮.𖹭*
+*𖹭.╭╭ִ╼࣪━ִﮩ٨ـﮩ♡̫☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘♡ִ̫ﮩ٨ـﮩ━ִ╾࣪╮╮.𖹭*
 > ♡ *Title:* ${info.title}
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
 > ♡ *Uploaded:* ${info.timestamp} (${info.ago})
@@ -45,7 +45,7 @@ cmd(
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
 > ♡ *Download URL:* ${info.url}
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
-> ♡  *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* AYAN DEV
+> ♡  *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ DEV
 *⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ׄۛ۫۫۫۫۫۫ۜ*`.trim();
 
       await robin.sendMessage(
@@ -87,12 +87,12 @@ cmd(
         {
           video: buffer,
           mimetype: "video/mp4",
-          caption: `🎥 *${title}*\n\nⒸ ALL RIGHTS RESERVED QUEEN ELISA👸`,
+          caption: `🎥 *${title}*\n\nⒸ ALL RIGHTS RESERVED ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘🥋🇿🇼`,
         },
         { quoted: mek }
       );
 
-      reply("*Follow my channel https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28 !* 👸");
+      reply("*Follow my channel https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T !* 👸");
     } catch (e) {
       console.error(e);
       reply(`❌ Error: ${e.message}`);
@@ -136,7 +136,7 @@ cmd({
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
 > ♡ *Download URL:* ${yts.url}
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
-> ♡  *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* AYAN DEV
+> ♡  *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ DEV
 *⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ׄۛ۫۫۫۫۫۫ۜ*`;
 
         // Send video directly with caption
@@ -182,7 +182,7 @@ cmd({
         }
         
         let ytmsg = `
-*𖹭.╭╭ִ╼࣪━ִﮩ٨ـﮩ♡̫ELISA𖦹ׅ♡ִ̫ﮩ٨ـﮩ━ִ╾࣪╮╮.𖹭*
+*𖹭.╭╭ִ╼࣪━ִﮩ٨ـﮩ♡̫☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘♡ִ̫ﮩ٨ـﮩ━ִ╾࣪╮╮.𖹭*
 > ♡ *Title:* ${info.title}
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
 > ♡ *Uploaded:* ${info.timestamp} (${info.ago})
@@ -205,7 +205,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `> *${yts.title}*\n> *© POWERED BY QUEEN ELISA INC*`
+            caption: `> *${yts.title}*\n> *© POWERED BY ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ INC*`
         }, { quoted: mek });
 
     } catch (e) {
