@@ -21,7 +21,7 @@ async (conn, mek, m, { from, args, q, reply }) => {
         if (!q) return reply("Please provide a TikTok video link.");
         if (!q.includes("tiktok.com")) return reply("Invalid TikTok link.");
         
-        reply("*_QUEEN ELISA DOWNLOADING TIKTOK VIDEO , PLEASE WAIT...🚀_*");
+        reply("*_☘🆃︎🅴︎🅻︎🅺︎🅸︎🅽︎🅶︎☘ DOWNLOADING TIKTOK VIDEO , PLEASE WAIT...🚀_*");
         
         const apiUrl = `https://delirius-apiofc.vercel.app/download/tiktok?url=${q}`;
         const { data } = await axios.get(apiUrl);
@@ -31,7 +31,7 @@ async (conn, mek, m, { from, args, q, reply }) => {
         const { title, like, comment, share, author, meta } = data.data;
         const videoUrl = meta.media.find(v => v.type === "video").org;
         
-        const caption = `🎵 *QUEEN ELISA TIKTOK VIDEO* 🎵\n\n` +
+        const caption = `🎵 *☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ TIKTOK VIDEO* 🎵\n\n` +
                         `👤 *USER:* ${author.nickname} (@${author.username})\n` +
                         `📖 *TITLE:* ${title}\n` +
                         `👍 *LIKES:* ${like}\n💬 *COMMENTS:* ${comment}\n🔁 *SHARES:* ${share}\n\n> © POWERED BY QUEEN ELISA ♥️`;
@@ -80,7 +80,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: videoData.url },
-      caption: `📥 *QUEEN ELISA FB DOWNLOADER..🚀*\n\n*QUAILTY•${videoData.quality}*\n\n🔗 *POWERED BY QUEEN ELISA INC*`
+      caption: `📥 *☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ FB DOWNLOADER..🚀*\n\n*QUAILTY•${videoData.quality}*\n\n🔗 *POWERED BY QUEEN ELISA INC*`
     }, { quoted: m });
 
   } catch (error) {
@@ -144,7 +144,7 @@ cmd({
           'url': _0x3d32a8
         },
         'mimetype': "video/mp4",
-        'caption': "*© POWERED BY QUEEN ELISA INC*"
+        'caption': "*© POWERED BY ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ INC*"
       }, {
         'quoted': _0x1b4817
       });
@@ -293,7 +293,7 @@ cmd({
     await conn.sendMessage(from, {
       video: { url: data.downloadUrl },
       mimetype: "video/mp4",
-      caption: "📥 *Instagram Video Downloaded Successfully!*"
+      caption: "📥 *Instagram Video Downloaded Successfully by☘🆃︎🅴︎🅻︎🅺︎🅸︎🅽︎🅶︎☘!*"
     }, { quoted: m });
 
   } catch (error) {
@@ -514,7 +514,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Made by Queen Elisa whatsapp bot 2025*`;
+🔗 *Made by ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ whatsapp bot 2025*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -565,7 +565,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*©Made by Queen Elisa whatsapp bot 2025*"
+        caption: "*©Made by ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ whatsapp bot 2025*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
