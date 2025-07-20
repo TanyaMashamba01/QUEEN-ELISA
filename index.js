@@ -111,10 +111,10 @@ const port = process.env.PORT || 9090;
   }
   });
   console.log('QUEEN ELISA Plugins installed successful ✅')
-  console.log('QUEEN ELISA CONNECTED SUCCESSFULLY ✅')
+  console.log('ZANDILE MXD CONNECTED SUCCESSFULLY ✅')
   
-  let up = `*Hello there QUEEN ELISA User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet QUEEN ELISA WhatsApp Bot.\n\n *Thanks for using QUEEN ELISA \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n\n https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28\n\n- *YOUR PREFIX:* = ${prefix}\n\n- *BOT MODE:* = ${settings.MODE}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/ayanmdoz/QUEEN-ELISA\n\n> ©MADE BY AYAN DEV \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0xh1qr.jpg` }, caption: up })
+  let up = `*Hello there Joshumambo1 NetKing User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet QUEEN ELISA WhatsApp Bot.\n\n *Thanks for using QUEEN ELISA \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n\n https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28\n\n- *YOUR PREFIX:* = ${prefix}\n\n- *BOT MODE:* = ${settings.MODE}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/ayanmdoz/QUEEN-ELISA\n\n> ©MADE BY AYAN DEV \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://b.top4top.io/p_3291qwfqu0.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -769,7 +769,7 @@ if (!isReact && settings.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("QUEEN ELISA MULTIDEVICE WHATSAPP BOT STARTED ✅");
+  res.send("ZANDILE-XMD MULTIDEVICE WHATSAPP BOT STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
