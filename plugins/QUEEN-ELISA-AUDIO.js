@@ -37,7 +37,7 @@ cmd(
       // 2) Send metadata + thumbnail
       const info = (await yts(url)).videos[0];
       const desc = `
-*𖹭.╭╭ִ╼࣪━ִﮩ٨ـﮩ♡̫ELISA𖦹ׅ♡ִ̫ﮩ٨ـﮩ━ִ╾࣪╮╮.𖹭*
+*𖹭.╭╭ִ╼࣪━ִﮩ٨ـﮩ♡̫☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘♡ִ̫ﮩ٨ـﮩ━ִ╾࣪╮╮.𖹭*
 > ♡ *Title:* ${info.title}
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
 > ♡ *Uploaded:* ${info.timestamp} (${info.ago})
@@ -46,7 +46,7 @@ cmd(
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
 > ♡ *Download URL:* ${info.url}
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
-> ♡  *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* AYAN DEV
+> ♡  *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ DEV
 *⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ׄۛ۫۫۫۫۫۫ۜ*`.trim();
 
       await robin.sendMessage(
@@ -91,7 +91,7 @@ cmd(
         { quoted: mek }
       );
 
-      reply("*Follow my channel https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28 👸*");
+      reply("*Follow my channel https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T 👸*");
     } catch (e) {
       console.error(e);
       reply(`❌ Error: ${e.message}`);
@@ -128,7 +128,7 @@ cmd({
 
         const { url, title, image, timestamp, ago, views, author } = data.results[0];
 
-        let info = `🍄 *ELISA 𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 🍄\n\n` +
+        let info = `🍄 *☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ 𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 🍄\n\n` +
             `🎵 *Title:* ${title || "Unknown"}\n` +
             `⏳ *Duration:* ${timestamp || "Unknown"}\n` +
             `👀 *Views:* ${views || "Unknown"}\n` +
@@ -138,7 +138,7 @@ cmd({
             `🔽 *Reply with your choice:*\n` +
             `1 *Audio Type* 🎵\n` +
             `2 *Document Type* 📁\n\n` +
-            `${settings.FOOTER || "> *©Made by Queen Elisa whatsapp bot 2025*"}`;
+            `${settings.FOOTER || "> *©Made by ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ whatsapp bot 2025*"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
@@ -179,7 +179,7 @@ cmd({
                 }
 
                 await conn.sendMessage(from, type, { quoted: mek });
-                await conn.sendMessage(from, { text: '*👸Follow my channel https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28 ✅*', edit: msg.key });
+                await conn.sendMessage(from, { text: '*👸Follow my channel https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T ✅*', edit: msg.key });
 
             } catch (error) {
                 console.error(error);
@@ -221,7 +221,7 @@ const yt = await ytsearch(q);
     }
     
     let ytmsg = `
-*𖹭.╭╭ִ╼࣪━ִﮩ٨ـﮩ♡̫ELISA𖦹ׅ♡ִ̫ﮩ٨ـﮩ━ִ╾࣪╮╮.𖹭*
+*𖹭.╭╭ִ╼࣪━ִﮩ٨ـﮩ♡̫☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘♡ִ̫ﮩ٨ـﮩ━ִ╾࣪╮╮.𖹭*
 > ♡ *Title:* ${info.title}
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
 > ♡ *Uploaded:* ${info.timestamp} (${info.ago})
@@ -230,7 +230,7 @@ const yt = await ytsearch(q);
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
 > ♡ *Download URL:* ${info.url}
 *°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
-> ♡  *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* AYAN DEV
+> ♡  *𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲:* ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ DEV
 *⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ׄۛ۫۫۫۫۫۫ۜ*`;
 
 
@@ -246,7 +246,7 @@ const yt = await ytsearch(q);
         document: { url: data.result.downloadUrl }, 
         mimetype: "audio/mpeg", 
         fileName: `${data.result.title}.mp3`, 
-        caption: `> *© POWERED BY QUEEN ELISA INC*`
+        caption: `> *© POWERED BY ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ INC*`
     }, { quoted: mek });
 
 } catch (e) {
@@ -281,7 +281,7 @@ cmd({
 
         const { url, title, image, timestamp, ago, views, author } = data.results[0];
 
-        let info = `🍄 *ELISA 𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 🍄\n\n` +
+        let info = `🍄 *☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ 𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 🍄\n\n` +
             `🎵 *Title:* ${title || "Unknown"}\n` +
             `⏳ *Duration:* ${timestamp || "Unknown"}\n` +
             `👀 *Views:* ${views || "Unknown"}\n` +
@@ -291,7 +291,7 @@ cmd({
             `🔽 *Reply with your choice:*\n` +
             `1 *Audio Type* 🎵\n` +
             `2 *Document Type* 📁\n\n` +
-            `${settings.FOOTER || "> *©Made by queen elisa whatsapp bot 2025*"}`;
+            `${settings.FOOTER || "> *©Made by ☘𝙉3𝙩𝙆𝙞𝙣𝙜 𝙈𝘿☘ whatsapp bot 2025*"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
@@ -332,7 +332,7 @@ cmd({
                 }
 
                 await conn.sendMessage(from, type, { quoted: mek });
-                await conn.sendMessage(from, { text: '*👸Follow my channel https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28 ✅*', edit: msg.key });
+                await conn.sendMessage(from, { text: '*👸Follow my channel https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T ✅*', edit: msg.key });
 
             } catch (error) {
                 console.error(error);
@@ -380,8 +380,8 @@ cmd({
             body: "Join our WhatsApp Channel",
             mediaType: 1,
             thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P',
-            mediaUrl: 'https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P',
+            sourceUrl: 'https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T',
+            mediaUrl: 'https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T',
             showAdAttribution: true,
             renderLargerThumbnail: true
         }
@@ -427,8 +427,8 @@ cmd({
             body: "Join our WhatsApp Channel",
             mediaType: 1,
             thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28',
-            mediaUrl: 'https://whatsapp.com/channel/0029VbAsVFh2phHUOXErCs28',
+            sourceUrl: 'https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T',
+            mediaUrl: 'https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T',
             showAdAttribution: true,
             renderLargerThumbnail: true
         }
