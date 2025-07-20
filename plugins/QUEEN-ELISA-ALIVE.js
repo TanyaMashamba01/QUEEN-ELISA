@@ -29,7 +29,7 @@ cmd({
 }, async (client, quotedMsg, message, { from, reply }) => {
   const settings = getAlive2Settings();
   if (!settings || !settings.img || !settings.msg) {
-    return reply("Alive message/image not set yet!\nUse ${settings.PREFIX} setalive <image/video_url> | <caption>\nEx: ${settings.Prefix}setalive https://files.catbox.moe/0xh1qr.jpg | Hello, I am alive! 🌟");
+    return reply("Alive message/image not set yet!\nUse ${settings.PREFIX} setalive <image/video_url> | <caption>\nEx: ${settings.Prefix}setalive https://i.postimg.cc/4NdSqms8/MidKing.jpg | Hello, I am alive! Don't forget to Follow https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T🌟");
   }
 
   try {
