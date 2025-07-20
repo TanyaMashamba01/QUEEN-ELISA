@@ -1,7 +1,7 @@
 {
-  "name": "QUEEN ELISA",
-  "description": "Javascript WhatsApp bot made by AYAN DEV",
-  "logo": "https://files.catbox.moe/a51qw5.jpeg",
+  "name": "HALSTED-TECH",
+  "description": "Javascript WhatsApp bot made by Joshumambo1-TECH DEV",
+  "logo": "https://b.top4top.io/p_3291qwfqu0.jpg",
   "keywords": ["MALIKA-MD"],
   "success_url": "/",
 
@@ -16,13 +16,13 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "QUEEN ELISA"
+      "value": "HALSTED-TECH"
     }, 
       
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": false,
-      "value": "."
+      "value": "~"
     },
     
     "MODE": {
@@ -86,20 +86,20 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "AYAN DEV"
+      "value": "HALSTED-TECH DEV"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "258xxxxxx"
+      "value": "263716xxxxxx"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "QUEEN ELISA"
+      "value": "Joshumambo1-TECH"
 
       }, 
 
@@ -132,13 +132,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/a51qw5.jpeg"
+      "value": "https://b.top4top.io/p_3291qwfqu0.jpg"
     },
     
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "> *Made by Elisa whatsapp bot 2025*"
+      "value": "> *Made by Joshuamambo1 whatsapp bot 2025*"
     },
 
       "DELETE_LINKS": {
