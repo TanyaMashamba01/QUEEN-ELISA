@@ -3,7 +3,7 @@ const { cmd, commands } = require('../command');
 
 cmd({
     pattern: "ping",
-    desc: "Check bot's response time.",
+    desc: "Check bot's response ☘🆃︎🅴︎🅻︎🅺︎🅸︎🅽︎🅶︎☘ time.",
     category: "group",
     react: "🍂",
     filename: __filename
